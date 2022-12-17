@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.anna.jwtappawss3.rest.FileRestControllerV1Test" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-12-17T11:56:57" hostname="host-156" time="0.594">
+  <properties/>
+  <testcase name="update()" classname="net.anna.jwtappawss3.rest.FileRestControllerV1Test" time="0.553"/>
+  <testcase name="getAllFiles()" classname="net.anna.jwtappawss3.rest.FileRestControllerV1Test" time="0.003"/>
+  <testcase name="save()" classname="net.anna.jwtappawss3.rest.FileRestControllerV1Test" time="0.008"/>
+  <testcase name="getFileById()" classname="net.anna.jwtappawss3.rest.FileRestControllerV1Test" time="0.003"/>
+  <testcase name="deleteFileById()" classname="net.anna.jwtappawss3.rest.FileRestControllerV1Test" time="0.022"/>
+  <system-out><![CDATA[14:56:58.512 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'fileService' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@72805168] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [fileService]
+14:56:58.543 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'fileService' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@1bcf67e8] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [fileService]
+14:56:58.548 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'fileService' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@76075d65] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [fileService]
+14:56:58.548 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 's3Service' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@76075d65] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [s3Service]
+14:56:58.549 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'authenticPrincipal' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@76075d65] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [authenticPrincipal]
+14:56:58.550 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'eventService' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@76075d65] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [eventService]
+14:56:58.557 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'fileService' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@5cf8edcf] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [fileService]
+14:56:58.561 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'fileService' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@3a627c80] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [fileService]
+14:56:58.562 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 's3Service' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@3a627c80] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [s3Service]
+14:56:58.562 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'authenticPrincipal' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@3a627c80] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [authenticPrincipal]
+14:56:58.563 [Test worker] DEBUG org.springframework.test.util.ReflectionTestUtils - Setting field 'eventService' of type [null] on target object [net.anna.jwtappawss3.rest.FileRestControllerV1@3a627c80] or target class [class net.anna.jwtappawss3.rest.FileRestControllerV1] to value [eventService]
+!<200 OK OK,EventDto(action=Deleted, user_id=1, file_id=1),[]>
+!!<200 OK OK,EventDto(action=Deleted, user_id=1, file_id=1),[]>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
