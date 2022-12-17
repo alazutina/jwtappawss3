@@ -45,7 +45,7 @@ public class EventServiceImpl implements EventService {
 
     @Override
     public Event findById(Long id) {
-        Event result = eventRepository.findById(id).orElse(null);
+        Event result = eventRepository.getById(id);//findById(id).orElse(null);
         if(result==null){
             log.warn("In findById - no event found by id {}", id);
             return null;
@@ -53,6 +53,7 @@ public class EventServiceImpl implements EventService {
         log.warn("In findById - event {} found by id {}", result,id);
         return result;
     }
+
 
     @Override
     public void delete(Long id) {

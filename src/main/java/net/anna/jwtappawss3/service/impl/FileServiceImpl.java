@@ -52,7 +52,7 @@ public class FileServiceImpl implements FileService {
 
     @Override
     public File findById(Long id) {
-        File result = fileRepository.findById(id).orElse(null);
+        File result = fileRepository.getById(id);//.orElse(null);
         if(result==null){
             log.warn("In findById - no file found by id {}", id);
             return null;

@@ -14,7 +14,7 @@ import javax.persistence.Enumerated;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class EventDto {
 
-    private Status action;
+    private String action;
     private Long user_id;
     private Long file_id;
 

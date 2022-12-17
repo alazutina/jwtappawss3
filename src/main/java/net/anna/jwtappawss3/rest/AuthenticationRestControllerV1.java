@@ -24,12 +24,9 @@ import java.util.Map;
 @RequestMapping(value = "/api/v1/auth/")
 public class AuthenticationRestControllerV1 {
 
-
     private final AuthenticationManager authenticationManager;
 
-
     private final JwtTokenProvider jwtTokenProvider;
-
 
     private final  UserService userService;
 
